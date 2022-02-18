@@ -12,11 +12,10 @@ public class JavaApplication3 {
          
     System.out.print("Nhập vào bán kính hình tròn: ");
     bankinh = scanner.nextInt();
-    v = soPI * bankinh * bankinh;
+    v = soPI * bankinh * 2;
        System.out.println ("Chu  hình tròn = " + (v));
 }
 
         
     }
     
-}
